@@ -7,7 +7,7 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  words = planeteer_calls.split(" ")
+  words = planeteer_calls.map
   idx = 0
   while idx < words.lengthword = words[idx]
     word = words[idx]
