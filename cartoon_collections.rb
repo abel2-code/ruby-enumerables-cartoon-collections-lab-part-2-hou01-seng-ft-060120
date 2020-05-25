@@ -14,7 +14,7 @@ def summon_captain_planet(planeteer_calls)
     word[0] = word[0].upcase
     idx += 1
   end
-  return words.join("! ")
+  return words.join(" ")
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 end
