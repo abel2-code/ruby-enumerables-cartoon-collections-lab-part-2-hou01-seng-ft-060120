@@ -7,7 +7,9 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map(&:capitalize)
+  planeteer_calls.map(&:capitalize) do |element|
+    planeteer_calls.to_s + "!"
+  end
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 end
